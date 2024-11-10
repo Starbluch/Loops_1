@@ -5,6 +5,7 @@ def Chessboard():
         print("Cell number must be between 1 and 6.")
         return
 
+
     for value in range(6):
         for value2 in range(6):
             if value < 3:
